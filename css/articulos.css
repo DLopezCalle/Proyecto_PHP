@@ -1,0 +1,97 @@
+table {
+    width: 70%;
+    height: 70%;
+    margin: 5%;
+    margin-top: 3%;
+    margin-left: 14.5%;
+}
+thead {
+    font-size: 130%;
+    text-align: center;
+    border: solid 2px;
+}
+td {
+    padding: 2%;
+}
+thead td {
+    border-bottom: solid 2px;
+    background-color: orange;
+    border-radius: 10px;
+    padding-left: 0.8%;
+}
+tbody td {
+    border-bottom: solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+tbody tr:hover td {
+        background-color: lightslategray;    
+}
+
+/* td que contiene la imagen */
+#tdimagen {
+    
+    width: 20%;
+    
+}
+
+/* Imagen de cada artículo */
+.imagen {
+    
+    width: 80%;
+    padding-bottom: 1.5%;
+    
+}
+
+.precio {
+    
+    width: 8%;
+    
+}
+
+#stock {
+    
+    width: 10%;
+    
+}
+
+.reducir {
+    
+    width: 10%;
+    padding-bottom: 1.5%;
+}
+
+.eliminar {
+    width: 45%;
+    margin-left: -80%;
+    margin-bottom: -35%;
+}
+
+.modificar {
+    width: 45%;  
+    margin-right: -80%;
+    margin-top: -15%;
+}
+
+form {
+    height: 0%;
+    border: 0px;
+}
+button {
+    padding: 0.5%;
+    font-size: 130%;
+    background-color: orange;
+    margin-left: 73.4%;
+    margin-top: 3%;
+    width: 11%;
+    height: 5%;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;  
+}
+button:hover {
+    cursor: pointer;
+    background-color: chocolate;
+}

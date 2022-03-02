@@ -1,0 +1,151 @@
+@font-face{
+    font-family: fuente; 
+    src: url(../fuentes/CaviarDreams_Bold.ttf);
+}
+* {
+    margin: 0;
+    font-family: fuente;
+}
+
+/* Pondremos un fondo gris a todas las páginas */
+body {
+    /*background-color: lightgray;*/
+    background-color: gainsboro;
+}
+
+/* La cabecera que aparecerá en todas las páginas de nuestro sitio */
+header {
+    
+    background-color: black;
+    
+}
+
+/* Div donde ponemos la imagen de la empresa */
+#logo {
+    
+    width: 33%;
+    
+}
+
+/* Imagen de la empresa */
+img {
+    
+    margin: 2%;
+    
+}
+
+/* Div del header en donde está información del usuario, así como el cierre de sesión */
+#informacion {
+    
+    color: white;
+    width: 65%;
+    font-size: 130%;
+    
+}
+
+/* Propiedades de la "imagen de perfil" que aparece a la derecha de la cabecera */
+#informacion img {
+    
+    margin: 0;
+    margin-top: 1%;
+    width: 6%;
+    float: right;
+    
+}
+
+/* Span en donde mostramos el nombre del usurio logeado y el cierre o inicio de sesión */
+#sesion {
+    
+    margin: 1%;
+    margin-right: 4%;
+    float: right;
+    text-align: right;
+    color: orange;
+    
+}
+
+/* Enlace de cierre e inicio de sesión */
+#informacion a {
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Al posicionar el cursor sobre dicho enlace */
+#informacion a:hover {
+    
+    color: orange;
+    
+}
+
+/* Para ajustar los divs de la cabecera */
+header div {
+    
+    display: inline-block;
+    
+}
+
+/* Es el div que nos mostrará el número de artículos que esten en el carrito */
+#circulo {
+    
+    float: right;
+    background-color: darkorange;
+    height: 30px;
+    width: 2.5%;
+    border-radius: 50%;
+    padding-top: 0.3%;
+    padding-left: 0.3%;
+    color: white;
+    position: relative;
+    left: 7.5%;
+    margin-top: 4%;
+    
+}
+
+/* El hermoso pie de página */
+footer {
+    
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    margin: 0.2%; 
+    width: 99.6%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+        
+    img {
+        
+        width: 200%;
+        
+    }
+    
+    #informacion {
+        
+        font-size: 84%;
+        
+    }
+    
+    #informacion img {
+        
+        margin-top: 2%;
+        width: 12%;
+        
+    }
+    
+    #circulo {
+        
+        height: 20px;
+        width: 5.5%;
+        left: 13%;
+        margin-top: 9%;
+        
+    }
+    
+}

@@ -1,0 +1,103 @@
+table {
+    width: 70%;
+    height: 70%;
+    margin: 5%;
+    margin-top: 7%;
+    margin-left: 14.5%;
+    margin-bottom: -1%;
+}
+
+thead {
+    font-size: 130%;
+    text-align: center;
+    border: solid 2px;
+}
+
+td {
+    padding: 2%;
+}
+
+thead td {
+    border-bottom: solid 2px;
+    background-color: darkorange;
+    border-radius: 10px;
+    padding-left: 0.8%;
+}
+
+tbody td {
+    border-bottom: solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+tbody tr:hover td {
+    background-color: lightgray;    
+}
+
+tbody img {
+    width: 100%;
+}
+
+#imagen {
+    width: 15%;
+    padding-bottom: 1.5%;
+}
+
+.reducir {
+    width: 10%;
+    padding-bottom: 1.5%;
+}
+
+.eliminar {
+    width: 70%;
+}
+
+#total {
+    
+    background-color: darkorange;
+    
+}
+
+.invisible {
+    
+    border: none;
+    background-color: gainsboro;
+    
+}
+
+
+tbody tr:hover .invisible{
+    
+    background-color: gainsboro;
+    
+}
+
+
+#boton {
+    
+    margin-top: 3%;
+    margin-left: 75.4%;
+    width: 9%;
+    height: 2%;
+    text-decoration: none;
+    padding: 0.5%;
+    font-weight: 600;
+    font-size: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+#boton:hover {
+    
+    cursor: pointer;
+    background-color: orange;
+    
+}
+
+footer {
+    
+    margin-top: 8.2%;
+    
+}

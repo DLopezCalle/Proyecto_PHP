@@ -1,0 +1,150 @@
+body {
+    /*background-color: lightgray;*/
+    background-color: gainsboro;
+}
+
+/* Section que contiene todos los artículos */
+#articulos {
+    
+    width: 70%;
+    margin: 5%;
+    margin-left: 15%;
+    display: inline-block;
+    
+}
+
+/* Cada cuadro de los artículos */
+article {
+    
+    display: inline-block;
+    background-color: white;
+    margin-top: 2%;
+    margin: 0.5%;
+    width: 23.3%;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    text-align: center;
+    font-size: 140%;
+    box-shadow:  0px 0px 10px #bbb, 0px 0px 10px #bbb;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+
+/* Las imágenes de todos los artículos */
+article img {
+    
+    /*position: static;*/
+    width: 90%;
+    
+}
+
+#busqueda {
+    
+    margin: 1%;
+    margin-top: -3%;
+    margin-bottom: 5%;
+    font-size: 120%;
+    text-align: right;
+    
+}
+
+/* Boton para ordenar los articulos */
+
+#botonordenar {
+    
+    margin-top: 2%;
+    width: 8wv;
+    height: 2%;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 600;
+    font-size: 100wv;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;  
+    
+}
+
+/* Al posicionar el cursor sobre el boton */
+
+#botonordenar:hover {
+    
+    cursor: pointer;
+    background-color: orange;
+    
+}
+
+/* El menú desplegable para cambiar el orden */
+select {
+    font-size: 80%;
+}
+
+/* Alinear el precio y el stock */
+#separar {
+    
+    margin-left: 20%;
+    
+}
+
+/* Span del precio */
+#precio {
+    
+    color: gray;
+    
+}
+
+/* Al posicionar el cursor sobre un artículo... */
+article:hover {
+    
+    border-radius: 20px;
+    transform: scale(1.1,1.1);
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+
+/* Boton para ver cada artículo */
+#ver {
+    
+    margin-top: 5%;
+    width: 30%;
+    height: 2%;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 600%;
+    font-size: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    
+}
+
+/* Al posicionar el cursor sobre dicho boton */
+#ver:hover {
+    
+    cursor: pointer;
+    background-color: orange;
+    
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    article {
+        
+        width: 100%;
+        
+    }
+    
+    #busqueda {
+        
+        margin-top: 5%;
+    margin-bottom: 10%;
+        
+    }
+    
+}

@@ -1,0 +1,152 @@
+/* Section que contendrá los datos del artículo */
+section {
+    
+    width: 60%;
+    margin: 3%;
+    margin-left: 20%;
+    
+    
+}
+
+/* Características generales de los artículos (uno contiene la imagen y el otro la descripción) */
+article {
+    
+    width: 33.5%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 2%;
+    font-size: 150%;
+    background-color: white;
+    box-shadow:  0px 0px 10px #bbb, 0px 0px 10px #bbb;
+    border-radius: 5%;
+    
+}
+
+/* Es el article que contiene la imagen */
+#imagen {
+    
+    width: 56%;
+    
+}
+
+/* Características de la imagen */
+article img {
+    
+    width: 100%;
+    padding: 0;
+    
+}
+
+/* Span para el campo donde nos muestra el nombre del artículo */
+#nombre {
+    
+    font-size: 160%;
+    
+}
+
+/* Span para el campo donde nos muestra el precio del artículo */
+#precio {
+    
+    color: gray;
+    margin-right: 40%;
+    
+}
+
+/* Span para el campo donde nos muestra el descripción y formulario de los botones de envio del artículo */
+#info {
+    
+    font-size: 80%;
+    color: black;
+    
+}
+
+/* Id relacionada el input de cantidad (un nombre bastante creativo) */
+#input {
+    
+    width: 10%;
+    padding: 1.5%;
+    font-size: 90%;
+    
+    
+}
+
+/* Párrafo donde pone "Detalles:" */
+p {
+    
+    font-weight: bold;
+    margin-right: 73%;
+    
+}
+
+/* Clase relacionada a los dos botones principales, añadir al carrito y comprar ahora */
+.boton {
+    
+    text-decoration: none;
+    width: 60%;
+    font-size: 110%;
+    text-align: center;
+    padding: 0.2%;
+    
+}
+
+#anadir {
+    
+    border: solid 2px darkorange;
+    background-color: white;
+    color: darkorange;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+
+#anadir:hover {
+    
+    cursor: pointer;
+    border: solid 2px orangered;
+    background-color: white;
+    color: orangered;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+
+#comprar {
+    
+    background-color: darkorange;
+    color: white;
+    margin-top: 2%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+
+#cantidad{
+    
+    padding: 1%;
+    
+}
+
+#comprar:hover {
+    
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    margin-top: 2%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    
+}
+footer {
+    
+    margin-top: 3.7%;
+    
+}
